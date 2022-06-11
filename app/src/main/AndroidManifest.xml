@@ -59,7 +59,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBMSvz-bHvqz7mU7BIXsh1B-do8vh2kVsI" />
+            android:value="API KEY DELETED DUE TO PRIVACY" />
 
         <activity
             android:name=".MainActivity"
