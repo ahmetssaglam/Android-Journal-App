@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="26dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white_gray"
+    tools:context=".UnlockActivity">
+
+    <Button
+        android:id="@+id/btnBackFromUnlock"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/dark_orange"
+        android:textStyle="bold"
+        android:layout_gravity="left|top"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/etUnlockPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/password"
+        android:imeOptions="actionDone"
+        android:textSize="14sp"
+        android:textColorHint="@color/dark_orange"
+        android:textColor="@color/dark_orange"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/btnUnlock"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/unlock"
+        android:layout_marginBottom="28dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/dark_orange"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

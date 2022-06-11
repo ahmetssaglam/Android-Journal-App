@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/orange"
+    android:id="@+id/layoutJournalItem"
+    >
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/iwJournalIcon"
+        android:src="@drawable/journal_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvJournalTitle"
+        android:layout_toEndOf="@id/iwJournalIcon"
+        tools:text="Music"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_centerVertical="true"
+        android:scrollHorizontally="true"
+        android:singleLine="true">
+    </TextView>
+
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnDeleteJournal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/red"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/delete"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="SmallSp" />
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnSendJournal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:text="@string/send"
+
+        />
+
+
+</RelativeLayout>

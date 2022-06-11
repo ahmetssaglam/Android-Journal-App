@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Journal</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="todo">TODO</string>
+    <string name="delete">DELETE</string>
+    <string name="send">SEND</string>
+    <string name="back">BACK</string>
+    <string name="journals">JOURNALS</string>
+    <string name="no_journals">NO JOURNALS FOUND</string>
+    <string name="add_journal">Add Journal</string>
+    <string name="add">ADD</string>
+    <string name="edit">EDIT</string>
+    <string name="pdf">PDF</string>
+    <string name="mood">Mood</string>
+    <string name="sample_date">1999-12-11</string>
+    <string name="set">SET</string>
+    <string name="set_pw">SET PASSWORD</string>
+    <string name="reset">RESET</string>
+    <string name="password">Password</string>
+    <string name="unlock">UNLOCK</string>
+    <string name="reload">RELOAD</string>
+    <string name="load">LOAD</string>
+    <string name="location">LOCATION DATA</string>
+    <string name="heading_hint">Heading..</string>
+    <string name="content_hint">Content..</string>
+    <string name="image_hint">Image..</string>
+    <string name="uzuntext">I think  in VM memory but in native memory instead. This asddddddddddddddddddddddddddddddddddddddlajdsakdsaldksadkjsaadsjldsakdsakjadskdsakjdsk dsalkjdsakjdsasdalkjdsakjdsakjdsajdsa dsaljsdakjdofejlkfdnsfdns dlfsjkjfdsfdsjjfdslfdsjdfjsdfsf ldfsjfdjlkjfdsfdjslfdjskjfdskjfdskjfds lofdsjkkfdjfljfdsfdksljfdskjfdsjfsf lkdsjfdfksfdskjfdlsljfdskfdsjfdskfdsdfsjfd lfdsjkfdksljjfdskfddlksfjfdsfdskdfjfdsf dsljfskfdjdkfjdkdfsjfd dsflkjfdjffdljfdjfdkjfd fdslkjfdlfddfkdfjfdsj LDSAJKSFDJFSJF FDSLKJFDKJSFDJFJFD DSLFKFDSLKJFLKJFDSKJDSFKJFDSFDSKJKJFDSKFDSJFDSJKFDF DSFLKJFDSKLJDKFLJSKFDJFDSJKFDSSDF DSLKFJDKFSJJFDKFJSLKFDSJKFDSKDFSJKFDSJFDS 342439432034238432 DSJFDJFHFDSHJKFDHDF 4554TR FED ljskfdjfdjlkfdfdslkfdsjfds ldskjfjfdslkfdskjfdslkjfdlkjfdljfdsfdkjkjfdslfdskdfjfd.</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
